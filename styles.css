@@ -1,0 +1,39 @@
+
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 1rem; background: #f7f7f7; }
+h1 { text-align: center; color: #444; }
+.search-box { text-align: center; margin-bottom: 1rem; }
+input[type="text"] { width: 60%; padding: 0.5rem; font-size: 1rem; }
+.catalog { padding: 1rem; }
+.grid { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+.card { background: white; border-radius: 8px; padding: 1rem; width: 280px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.card h3 { margin-top: 0; color: #0077cc; }
+.card p { margin: 0.3rem 0; }
+.category-group { margin-bottom: 2rem; }
+.category-group h2 { font-size: 1.5rem; border-bottom: 2px solid #0077cc; margin-bottom: 1rem; color: #333; }
+
+.top-nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.top-nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.top-nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0077cc;
+}
+.top-nav ul li a:hover {
+  text-decoration: underline;
+}
